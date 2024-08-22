@@ -8,7 +8,9 @@ How to setup
 4. Run PaymentvalidationApplication.java to start the web server
 5. Test the API on endpoint (http://localhost:8080/validatePayment)
 
+
 Accounts Data Stored in h2 database (in-memory database)
+
 AccounID   Balance  Currency
 
     1        10.50    'USD'
