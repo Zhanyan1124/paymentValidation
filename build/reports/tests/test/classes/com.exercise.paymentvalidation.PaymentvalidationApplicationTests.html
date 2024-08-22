@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - PaymentvalidationApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>PaymentvalidationApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.exercise.paymentvalidation.html">com.exercise.paymentvalidation</a> &gt; PaymentvalidationApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.360s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">shouldReturnInvalidPaymentWhenAccountNotFound()</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReturnInvalidPaymentWhenInsufficientBalanceWithConversion()</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReturnInvalidPaymentWhenInsufficientBalanceWithoutConversion()</td>
+<td class="success">1.265s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReturnInvalidPaymentWhenInvalidAmount()</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReturnInvalidPaymentWhenInvalidAmount2()</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReturnInvalidPaymentWhenInvalidCurrency()</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReturnValidPaymentWhenValidDataWithConversion()</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReturnValidPaymentWhenValidDataWithoutConversion()</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>04:15:57.774 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.exercise.paymentvalidation.PaymentvalidationApplicationTests]: PaymentvalidationApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+04:15:57.902 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.exercise.paymentvalidation.PaymentvalidationApplication for test class com.exercise.paymentvalidation.PaymentvalidationApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.2)
+
+2024-08-23T04:15:58.338+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] c.e.p.PaymentvalidationApplicationTests  : Starting PaymentvalidationApplicationTests using Java 17.0.2 with PID 10424 (started by zhany in C:\Users\zhany\paymentvalidation)
+2024-08-23T04:15:58.340+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] c.e.p.PaymentvalidationApplicationTests  : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-08-23T04:15:59.025+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-23T04:15:59.080+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 2 JDBC repository interfaces.
+2024-08-23T04:15:59.623+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2024-08-23T04:15:59.636+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-23T04:15:59.637+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-23T04:15:59.723+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-23T04:15:59.725+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1360 ms
+2024-08-23T04:15:59.895+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-23T04:16:00.141+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:37fd2412-bf65-4967-a73f-755afcad266e user=SA
+2024-08-23T04:16:00.143+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-23T04:16:01.211+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 63838 (http) with context path '/'
+2024-08-23T04:16:01.224+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] c.e.p.PaymentvalidationApplicationTests  : Started PaymentvalidationApplicationTests in 3.144 seconds (process running for 4.329)
+2024-08-23T04:16:02.223+08:00  INFO 10424 --- [paymentvalidation] [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-23T04:16:02.224+08:00  INFO 10424 --- [paymentvalidation] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-23T04:16:02.225+08:00  INFO 10424 --- [paymentvalidation] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.8</a> at 23 Aug 2024, 4:16:02 am</p>
+</div>
+</div>
+</body>
+</html>

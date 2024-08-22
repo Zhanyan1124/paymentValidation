@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.exercise.paymentvalidation.PaymentvalidationApplicationTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-08-22T20:16:01" hostname="ZY" time="1.368">
+  <properties/>
+  <testcase name="shouldReturnInvalidPaymentWhenInsufficientBalanceWithoutConversion()" classname="com.exercise.paymentvalidation.PaymentvalidationApplicationTests" time="1.265"/>
+  <testcase name="shouldReturnInvalidPaymentWhenInvalidAmount()" classname="com.exercise.paymentvalidation.PaymentvalidationApplicationTests" time="0.009"/>
+  <testcase name="shouldReturnInvalidPaymentWhenInsufficientBalanceWithConversion()" classname="com.exercise.paymentvalidation.PaymentvalidationApplicationTests" time="0.023"/>
+  <testcase name="shouldReturnValidPaymentWhenValidDataWithConversion()" classname="com.exercise.paymentvalidation.PaymentvalidationApplicationTests" time="0.022"/>
+  <testcase name="shouldReturnValidPaymentWhenValidDataWithoutConversion()" classname="com.exercise.paymentvalidation.PaymentvalidationApplicationTests" time="0.01"/>
+  <testcase name="shouldReturnInvalidPaymentWhenAccountNotFound()" classname="com.exercise.paymentvalidation.PaymentvalidationApplicationTests" time="0.011"/>
+  <testcase name="shouldReturnInvalidPaymentWhenInvalidAmount2()" classname="com.exercise.paymentvalidation.PaymentvalidationApplicationTests" time="0.01"/>
+  <testcase name="shouldReturnInvalidPaymentWhenInvalidCurrency()" classname="com.exercise.paymentvalidation.PaymentvalidationApplicationTests" time="0.01"/>
+  <system-out><![CDATA[04:15:57.774 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.exercise.paymentvalidation.PaymentvalidationApplicationTests]: PaymentvalidationApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+04:15:57.902 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.exercise.paymentvalidation.PaymentvalidationApplication for test class com.exercise.paymentvalidation.PaymentvalidationApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.2)
+
+2024-08-23T04:15:58.338+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] c.e.p.PaymentvalidationApplicationTests  : Starting PaymentvalidationApplicationTests using Java 17.0.2 with PID 10424 (started by zhany in C:\Users\zhany\paymentvalidation)
+2024-08-23T04:15:58.340+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] c.e.p.PaymentvalidationApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-08-23T04:15:59.025+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-23T04:15:59.080+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 2 JDBC repository interfaces.
+2024-08-23T04:15:59.623+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2024-08-23T04:15:59.636+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-23T04:15:59.637+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-23T04:15:59.723+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-23T04:15:59.725+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1360 ms
+2024-08-23T04:15:59.895+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-23T04:16:00.141+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:37fd2412-bf65-4967-a73f-755afcad266e user=SA
+2024-08-23T04:16:00.143+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-23T04:16:01.211+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 63838 (http) with context path '/'
+2024-08-23T04:16:01.224+08:00  INFO 10424 --- [paymentvalidation] [    Test worker] c.e.p.PaymentvalidationApplicationTests  : Started PaymentvalidationApplicationTests in 3.144 seconds (process running for 4.329)
+2024-08-23T04:16:02.223+08:00  INFO 10424 --- [paymentvalidation] [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-23T04:16:02.224+08:00  INFO 10424 --- [paymentvalidation] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-23T04:16:02.225+08:00  INFO 10424 --- [paymentvalidation] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
