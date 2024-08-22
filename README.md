@@ -10,10 +10,15 @@ How to setup
 
 Accounts Data Stored in h2 database (in-memory database)
 AccounID   Balance  Currency
+
     1        10.50    'USD'
+    
     2       250.75    'EUR'
+    
     3       500.00    'GBP'
+    
     4         0.00    'MYR'
+
 
 Supportable Currencies: [MYR, SGD, USD, GBP, EUR]
 
