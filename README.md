@@ -18,6 +18,7 @@ AccounID   Balance  Currency
 Supportable Currencies: [MYR, SGD, USD, GBP, EUR]
 
 Sample Requests & Response
+
 Sample 1:
 JSON input 
 {
